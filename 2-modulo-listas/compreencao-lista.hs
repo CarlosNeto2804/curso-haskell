@@ -10,9 +10,10 @@ listaPares = [x | x <- [1 .. 10],  even x]
 
 
 ePar :: Int -> Bool 
-ePar n = mod n 2 == 0 --ou even 2
+ePar n = even 2
+--ePar n = mod n 2 == 0 --ou even 2
 
-eMaiorQueCinco :: Int -> Bool 
+eMaiorQueCinco :: Int -> Bool  
 eMaiorQueCinco n = n > 5
 
 listaDeParesMaioresQueCinco :: [Int]
